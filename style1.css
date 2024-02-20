@@ -1,0 +1,247 @@
+:root {
+  --background-light: #504F4F;
+  --background-dark: #282828;
+  --text-light: #B4B2B2;
+  --text-dark: #3D3C3C;
+  --link-light: white;
+  --link-dark: #000000;
+
+}
+
+body {
+  background-color: #504F4F;
+  padding-top: 10px;
+  margin: 10px;
+  color: var(--text-light);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.logo{
+  width: 150px;
+  height: 150px;
+  border: solid;
+  border-color: white;
+  -moz-border-radius: 75px;
+  -webkit-border-radius: 75px;
+  border-radius: 70px;
+}
+
+.Pré1 {
+  color: white;
+  font-family: 'Teko', sans-serif;
+  font-size: 56px;
+  transition: all 0.6s;
+
+  user-select: none; /* Évite la sélection de texte lors du clic */
+}
+
+ 
+
+  
+
+
+.nav {
+  float: left;
+  font-family: 'Bebas Neue', sans-serif;
+  display: flex;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+.contact {
+    list-style: none;
+    text-decoration: none;
+    color: #B0B0B0;
+    font-size: 42px;
+    transition: all 0.6s;
+    user-select: none;
+    position: relative;
+}
+
+.contact:hover {
+    color: #FFAB17;
+    font-size: 50px;
+}
+
+.contact::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; /* Ajustez la position verticale du soulignement si nécessaire */
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #FFAB17; /* Couleur du soulignement */
+    transition: width 0.3s ease, left 0.3s ease;
+     height: 3px;
+}
+
+.contact:hover::before {
+    width: calc(100% - 40px); /* Largeur du soulignement ajustée */
+    left: 20px; /* Décalage du soulignement */
+}
+
+.titrecontact{
+  color: white;
+ font-family: 'Teko', sans-serif;
+  font-size: 56px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff; 
+    user-select: none;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  position: fixed;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.copyright {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+.droit{
+
+list-style-type: none;
+text-decoration: none;
+color: white;
+transition: 0.5s ease;
+}
+
+.droit:hover{
+
+
+color: #B9B9B9;
+
+}
+
+
+.droits1{
+
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+color: white;
+
+
+}
+.a11 {
+  font-size: 56px;
+  transition: 0.6s ease;
+  
+}
+
+.a22 {
+  font-size: 56px;
+  transition: 0.7s ease;
+}
+
+.a33 {
+  font-size: 56px;
+  transition: 0.8s ease;
+}
+
+.a44 {
+  font-size: 56px;
+  transition: 0.9s ease;
+}
+
+
+
+
+
+.htmletcss{
+
+color: red;
+
+
+}
+
+.lyceesh{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 56px;
+  transition: all 0.6s;
+
+
+
+
+}
+
+.lyceesh:hover{
+color: #FFAB17;
+  
+
+
+}
+
+
+
+
+.instagram{
+
+position: fixed;
+left: 0;
+bottom: 0;
+height: auto;
+width:50px;
+transition: 0.5s ease;
+}
+
+.twitter{
+
+position: fixed;
+left: 85px;
+bottom: 0;
+height: auto;
+width:50px;
+transition:  0.5s ease;
+}
+
+
+
+.instagram:hover{
+   transform: rotate(-360deg);
+ width: 78px;
+
+
+}
+
+.twitter:hover{
+   transform: rotate(-360deg);
+   width: 78px;
+
+
+}
+
+.gmail{
+
+position: fixed;
+left:170px;
+bottom: 0;
+height: auto;
+width:50px;
+transition:  0.5s ease;
+}
+
+.gmail:hover{
+   transform: rotate(-360deg);
+   width: 78px;
+
+

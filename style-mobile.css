@@ -1,0 +1,42 @@
+/* Ajoutez des styles spécifiques aux mobiles en utilisant des media queries */
+@media only screen and (max-width: 600px) {
+    /* Styles spécifiques aux appareils mobiles */
+
+    /* Réduisez la taille de l'image de Yoshi */
+    .imagemario img {
+        width: 250px;
+        margin-left: 70%;
+        transform: translateX(-50%);
+        bottom: 0px;
+    }
+
+    /* Réorganisez le contenu pour qu'il soit plus adapté aux mobiles */
+    .Pré1 {
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    .a22, .a33, .a44 {
+        font-size: 36px; /* Réduisez la taille de la police pour les textes plus longs */
+    }
+
+    /* Réduisez la taille des icônes des réseaux sociaux */
+    .social img {
+        width: 30px;
+    }
+
+    /* Réduisez la taille du menu de navigation */
+    .nav     {
+        margin-left: 0px;
+        left: 0px
+        
+    }
+
+
+    .container{
+
+
+        font-size: 10px;
+    }
+
+
